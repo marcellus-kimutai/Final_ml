@@ -51,7 +51,7 @@ def main():
         prediction = predict_default(YW, YP, WPP, WPA, CROPPING_INTENSITY,
        YW_CV_TEMPORAL, YP_CV_TEMPORAL, CLIMATEZONE,
        AREA_IN_CLIMATEZONE_HA)
-        st.success('The tool recommends {}'.format(prediction))
+        st.success('Average Yield (YA) {}'.format(prediction))
 
 if __name__ == '__main__':
     main()
